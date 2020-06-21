@@ -11,3 +11,6 @@ def pagina_inicial():
 @meu_web_app.route('/hello')
 def hello_world():
     return "Hello World"
+
+if __name__ == "__main__":
+    meu_web_app.run(debug=True)
