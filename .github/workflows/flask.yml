@@ -28,7 +28,4 @@ jobs:
     - name: Run Tests
       run: |
         py.test --cov=app
-    - name: Run Project
-      run: |
-        python app/app.py
 
